@@ -20,10 +20,10 @@ setup(
     package_dir={'sentinel1-burst-id': '.'},
     packages=['sentinel1-burst-id',
               'sentinel1-burst-id.src',
-              'sentinel1-burst-id.scripts'],
+              'sentinel1-burst-id.bin'],
     package_data=package_data_dict,
     classifiers=['Programming Language :: Python', ],
-    scripts=['scripts/create_burst_id.py'],
+    scripts=['bin/create_burst_id.py'],
     #install_requires=['argparse', 'numpy', 'yamale', 'ruamel',
     #                  'osgeo', 'scipy'],
     # 'tempfile' 'os' 'sys' 'glob' 'mimetypes'
